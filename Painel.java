@@ -8,7 +8,7 @@ public class Painel {
         String resposta = carro.abrirJanela();
         String velocidade = motor.acelerar();
 
-        // ------------ == -------------
+        // ------------ == --------------
 
         System.out.println(resposta);
         System.out.println(velocidade);
