@@ -12,6 +12,12 @@ public class Painel {
 
         System.out.println(resposta);
         System.out.println(velocidade);
+        System.out.println(carro.LimpadorParabrisa);
+
+        // ------------ == --------------
+
+        boolean carroLimpa = carro.LimpaParabrisa(true);
+        System.out.println(carroLimpa);
 
 
 
